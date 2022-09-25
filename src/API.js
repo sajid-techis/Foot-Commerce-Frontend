@@ -6,7 +6,7 @@ export const LOGIN_USER_KEY = "FOOTCOMMERCE_LOGIN_USER_KEY";
 
 let baseURL;
 
-baseURL = "http://127.0.0.1:8000/";
+baseURL = "https://foot-commerce-backend.sajid-techis.repl.co/";
 
 const api = axios.create({
   baseURL: baseURL,
